@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  width: 100%;
+  margin-top: 2em;
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  width: 800px;
+  height: 400px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.dirCol{
+  flex-direction: column;
+}
+
+#codRastreio {
+  width: 300px;
+  height: 30px;
+  margin: 8px 0;
+  margin-top: 5em;
+  box-sizing: border-box;
+  background: #fafafa;
+  color: #000;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #00ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=submit] {
+  width: 30px;
+  height: 30px;
+  margin-top: 5em;
+  background-color: #00ccff;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+input[type=submit]:hover {
+  background-color: #00aad4;
+  color: white;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin-top: 0.8em;
+}

@@ -1,0 +1,23 @@
+#container{
+  width: 100%;
+  margin-top: 8em;
+  padding-top: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#codRastreio {
+  width: 300px;
+  height: 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: #fafafa;
+  color: #000;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #00ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
